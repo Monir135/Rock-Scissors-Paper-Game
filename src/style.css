@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #121212;
+
+}
+
+.my-img-button {
+    background-color: #121212;
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.img-icon {
+    width: 50px;
+}
+
+.flex-container {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.three-button {
+    margin-bottom: 25px;
+}
+
+.show-counts,
+.show-result {
+    margin-bottom: 25px;
+
+}
+
+.player-icon,
+.computer-icon {
+    height: 100px;
+
+}
+
+.html-entity {
+    font-size: 20px;
+}
+
+.reset-button, .autoplay-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.result-div{
+    margin-top: 20px;
+    text-align: center;
+    font-size:x-large;
+    font-weight: 900;
+    color:bisque;
+
+}
+.autoplay-button{
+    background-color: darkgreen;
+}
+.reset-button:hover,.autoplay-button:hover {
+    opacity: 0.8;
+}
+@media (max-width:414px){
+.my-img-button {
+    background-color: #121212;
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 110px;
+    width: 110px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+}

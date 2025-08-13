@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors-Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Play my interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Challenge yourself or try autoplay mode!">
+    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio">
+    <meta name="author" content="Moniruzzaman">
+    <meta property="og:title" content="Rock-Paper-Scissors Game by Moniruzzaman">
+    <meta property="og:description"
+        content="Play an interactive Rock-Paper-Scissors game with autoplay mode, built using HTML, CSS, and JavaScript.">
+    <meta property="og:image" content="https://i.postimg.cc/FshpXKhG/Untitled-20250813-075358.png">
+    <meta property="og:url" content="https://your-portfolio-link.com/rock-paper-scissors">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="Untitled (14).png">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="flex-container">
+                <div class="three-button">
+                    <button onclick="pickplayerMove('Rock')" class="my-img-button"><img src="Rock-emoji.png" alt="Rock"
+                            class="img-icon"></button>
+                    <button onclick="pickplayerMove('Paper')" class="my-img-button"><img src="Paper-emoji.png"
+                            alt="Paper" class="img-icon"></button>
+                    <button onclick="pickplayerMove('Scissors')" class="my-img-button"><img src="Scissors-emoji.png"
+                            alt="Scissors" class="img-icon"></button>
+                </div>
+                <div class="show-result"></div>
+                <p class="show-counts"></p>
+                <div class="reset-autoplay-button">
+
+                    <button onclick="
+    counts.Wins = 0;
+    counts.Looses = 0;
+    counts.Ties = 0;
+    pickplayerMove('');
+    localStorage.removeItem('counts');
+
+
+    " class="reset-button">Reset</button>
+                    <button class="autoplay-button" onclick="
+    autoplay()">Autoplay</button>
+
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

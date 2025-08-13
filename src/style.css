@@ -73,12 +73,13 @@ body {
     margin-top: 20px;
     text-align: center;
     font-size:x-large;
-    font-weight: 900;
+    font-weight: 700;
     color:bisque;
 
 }
 .autoplay-button{
     background-color: darkgreen;
+     border-radius: 5px;
 }
 .reset-button:hover,.autoplay-button:hover {
     opacity: 0.8;
